@@ -1,0 +1,2 @@
+# cardiovascular_diseases_prediction
+Cardiovascular Diseases Binary Classification Predictive Model with FastAPI
