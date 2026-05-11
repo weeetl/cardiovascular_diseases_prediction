@@ -1,2 +1,35 @@
-# cardiovascular_diseases_prediction
-Cardiovascular Diseases Binary Classification Predictive Model with FastAPI
+📄 Документация к приложению по сердечно-сосудистым заболеваниям (Cardiovascular Diseases API)
+
+📌 Описание проекта:
+
+Это приложение разработано для предсказания риска развития сердечно-сосудистых заболеваний на основе предоставленных медицинских данных пациента. Система основана на FastAPI и принимает на вход CSV-файл с набором признаков, а затем возвращает результаты предсказаний в формате JSON.
+
+
+
+🛠️ Структура проекта:
+
+
+project/
+- app.py                 # Основная логика FastAPI
+- utils.py               # Утилита по предобработке данных            
+- main.py                # Точка входа для запуска сервера
+- test.py                # Скрипт для тестирования
+- requirements.txt       # Зависимости
+
+🤝 Установка и запуск:
+
+Клонируй репозиторий:
+
+git clone https://github.com/your_username/cardiovascular_diseases.git
+
+Установи зависимости:
+
+pip install -r requirements.txt
+
+Запусти сервер:
+
+python main.py
+
+Запусти скрипт тестирования (опционально):
+
+python test.py
